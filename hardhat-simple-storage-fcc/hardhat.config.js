@@ -20,5 +20,15 @@ module.exports = {
     solidity: "0.8.8",
     etherscan: {
         apiKey: ETHERSCAN_API_KEY,
+        customChains: [
+            {
+                network: "Goerli",
+                chainId: 5,
+                urls: {
+                    apiURL: "http://api-goerli.etherscan.io/api",
+                    browserURL: "https://goerli.etherscan.io",
+                },
+            },
+        ],
     },
 }
