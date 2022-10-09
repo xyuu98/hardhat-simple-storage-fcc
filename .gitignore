@@ -1,4 +1,0 @@
-.env
-node_modules
-.encryptedKey.json
-hardhat-simple-storage-fcc/scripts/deploy.js
