@@ -1,3 +1,0 @@
-# Ethers SimpleStorage FCC
-
-Hi
